@@ -1,0 +1,43 @@
+.keys, .keyother{
+    display:inline-block;
+    height:25px;
+    padding-top: 5px;
+    width:30px;
+    background: #4d4d4d;
+    margin:5px 0;
+    border-radius:5px;
+    color:white;
+    flex: 0 0 auto;
+    text-align:center;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+.keyboard{
+    position: fixed;
+    top:calc(100% - 200px);
+    left:calc(50% - 225px);
+    width:450px;
+    background:#6a5f31;
+    border-radius:5px;
+}
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:95%;
+    margin:auto;
+}
+.fifth-row{
+
+}
+.wspace{
+    flex: 0.5 0 auto;
+}
+.enter{
+    flex:0.1 0 auto;
+}
+.spec, .rus{
+    display:none;
+}
